@@ -1,28 +1,12 @@
-
 Start
-
-Input
-
+⃣Input
 Read a string from the user.
-
- Enqueue characters in Queue
-
-Add each character to a queue (FIFO).
-
-Push characters into Stack
-
-Push each character into a stack (LIFO).
-
- Compare dequeue vs pop
-
-Remove characters from the queue (dequeue) and the stack (pop) one by one.
-
-Compare the dequeued character with the popped character. 
-
-Result
-
-If all matches → Print "It is a palindrome"
-
-If any mismatch → Print "It is not a palindrome"
-
- End
+⃣Insert characters into deque
+Add each character to the deque.
+Compare front and rear elements
+Remove the first and last elements.
+Compare them.
+⃣Repeat until deque is empty or mismatch occurs
+If mismatch → Print "Not a palindrome"
+If deque becomes empty → Print "It is a palindrome"
+End
