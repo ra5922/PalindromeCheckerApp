@@ -1,11 +1,7 @@
-Create an interface PalindromeStrategy.
+Run multiple palindrome algorithms.
 
-Create classes implementing this interface:
+Capture the execution time using System.nanoTime().
 
-StackStrategy
+Display the time taken by each algorithm.
 
-DequeStrategy
-
-Create a service class that accepts a strategy.
-
-Choose and inject the strategy at runtime.
+Compare which algorithm is faster.
