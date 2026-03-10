@@ -1,11 +1,11 @@
-The recursive function compares the first character and last character of the string.
+Take the input string.
 
-If both characters are equal, the function calls itself again for the remaining substring.
+Normalize the string by:
 
-The process continues until the base condition is reached.
+Converting all letters to lowercase
 
-If at any step the characters are not equal, the function returns false.
+Removing spaces
 
-If all comparisons match, the string is a palindrome.
+Apply the palindrome checking logic.
 
-Key Concepts Used in UC9
+If the reversed string matches the original processed string → Palindrome.
