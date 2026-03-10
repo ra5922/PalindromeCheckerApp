@@ -1,7 +1,11 @@
-Convert the string into a singly linked list.
+The recursive function compares the first character and last character of the string.
 
-Use fast and slow pointers to find the middle of the list.
+If both characters are equal, the function calls itself again for the remaining substring.
 
-Reverse the second half of the linked list in-place.
+The process continues until the base condition is reached.
 
-Compare the first half and reversed second half.
+If at any step the characters are not equal, the function returns false.
+
+If all comparisons match, the string is a palindrome.
+
+Key Concepts Used in UC9
