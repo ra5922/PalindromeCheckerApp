@@ -1,11 +1,7 @@
-Take the input string.
+Create a class PalindromeChecker.
 
-Normalize the string by:
+Put the palindrome logic inside a method checkPalindrome().
 
-Converting all letters to lowercase
+Call this method from the main program.
 
-Removing spaces
-
-Apply the palindrome checking logic.
-
-If the reversed string matches the original processed string → Palindrome.
+The method returns true or false depending on whether the string is a palindrome.
