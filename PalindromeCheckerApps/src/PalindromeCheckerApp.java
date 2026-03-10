@@ -1,13 +1,9 @@
 public class PalindromeCheckerApp {
 
-    public static boolean isPalindrome(String str) {
+    // Method to check palindrome
+    public boolean checkPalindrome(String str) {
 
-        // Convert to lowercase
         str = str.toLowerCase();
-
-        // Remove spaces
-        str = str.replaceAll("\\s+", "");
-
         int start = 0;
         int end = str.length() - 1;
 
@@ -26,12 +22,15 @@ public class PalindromeCheckerApp {
 
     public static void main(String[] args) {
 
-        String input = "Never Odd Or Even";
+        PalindromeCheckerApp checker = new PalindromeCheckerApp();
 
-        if (isPalindrome(input)) {
+        String word = "level";
+
+        if (checker.checkPalindrome(word)) {
             System.out.println("Palindrome");
         } else {
             System.out.println("Not a Palindrome");
         }
     }
 }
+
