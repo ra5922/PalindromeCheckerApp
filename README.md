@@ -1,7 +1,11 @@
-Create a class PalindromeChecker.
+Create an interface PalindromeStrategy.
 
-Put the palindrome logic inside a method checkPalindrome().
+Create classes implementing this interface:
 
-Call this method from the main program.
+StackStrategy
 
-The method returns true or false depending on whether the string is a palindrome.
+DequeStrategy
+
+Create a service class that accepts a strategy.
+
+Choose and inject the strategy at runtime.
